@@ -1,8 +1,24 @@
 {
-  "name": "my-storybook",
+  "name": "fn-my-storybook-components",
   "homepage": "https://Felipe-Navas.github.io/my-storybook",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/Felipe-Navas/my-storybook",
+    "type": "git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +35,7 @@
   },
   "scripts": {
     "start": "storybook dev -p 6006",
-    "build": "storybook build",
+    "build": "TODO: implement build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
